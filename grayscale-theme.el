@@ -333,7 +333,7 @@
      [,bg ,red ,green ,yellow ,blue ,magenta ,cyan ,fg])
    `(ansi-term-color-vector
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
-     [unspecified ,bg ,red ,green ,yellow ,blue ,magenta ,cyan ,fg])))
+     [term ,bg ,red ,green ,yellow ,blue ,magenta ,cyan ,fg])))
 
 ;;;###autoload
 (and load-file-name
